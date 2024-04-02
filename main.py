@@ -104,7 +104,7 @@ entry_scale.pack()
 button_browse = tk.Button(root, text='Выбрать файл изображения', command=select_image)
 button_browse.pack()
 
-button_start = tk.Button(root, text='Старт', command=process_image)
+button_start = tk.Button(root, text='Начать', command=process_image)
 button_start.pack()
 
 frame = tk.Frame(root)
